@@ -1,0 +1,15 @@
+{
+  "name": "petstore-static-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/redoc-cli/index.js bundle petstore.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redoc-cli": "^0.12.3"
+  }
+}
